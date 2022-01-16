@@ -13,13 +13,16 @@ body{
     }
    
     .menu-width{
-        width: 65%;
+        width: 70%;
     }
     
 
     #influencer{
         color:rgba(0, 0, 0, 0.397)
         
+    }
+    #starter-child{
+        text-align: justify;
     }
     .button{
         color: white;
@@ -81,6 +84,7 @@ body{
         padding-top: 0px;
         color: rgb(255, 115, 0);
         
+        
     }
     .product-name{
         font-size: 28px;
@@ -102,7 +106,7 @@ body{
         
         color: rgb(221, 29, 103);
         font-size: 16px;
-        padding-left:90%;
+        padding-left:85%;
     }
     .footer-parent{
         background-color: rgb(15, 15, 48);
@@ -134,6 +138,7 @@ body{
     .bonus-module{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        
     } 
    
     
