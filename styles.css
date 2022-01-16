@@ -11,38 +11,11 @@ body{
     .menu{
     display:flex;
     }
-    .extra{
-        font-size: 1.1em;
-        display: flex;
-        padding-top: 20px;
-        
-        display: grid;
-        grid-template-columns: repeat(6,1fr);
-        color:3A3A3A;
-        
-    }
+   
     .menu-width{
         width: 65%;
     }
-    /* .home{
-        text-decoration: none;
-        color:rgba(0, 0, 0, 0.925)
-    }
-    .products{
-        
-        text-decoration: none;
-        color:rgba(0, 0, 0, 0.925)
-    }
-    /* .signup{
-        padding-left:20px;
-        text-decoration: none;
-        color:rgba(0, 0, 0, 0.925)
-         */
-    /* }
-    .login{
-        text-decoration: none;
-        color:rgba(0, 0, 0, 0.925)
-    }  */
+    
 
     #influencer{
         color:rgba(0, 0, 0, 0.397)
@@ -56,6 +29,7 @@ body{
         padding: 1.5%;
         border-radius: 15px;
     }
+    /*this section is for the transition and transformation of image and the left text part to hold in e box*/
     .transform-img{
         display: flex;
         
@@ -64,9 +38,6 @@ body{
         width: 50%;
     }
     .first-width img{
-        /* width:75%; */
-        /* padding-left: 20%;
-        padding-bottom: 80%; */
         width: 440px;
         height: 414px;
          
@@ -89,7 +60,7 @@ body{
         font-weight: 800;
     }
     .items{
-        padding: 10px;
+        /* padding: 10px; */
         display: grid;
         grid-template-columns: repeat(3,1fr);
         background-color: rgba(170, 169, 169, 0.089);
@@ -115,18 +86,14 @@ body{
         box-shadow: rgb(88, 86, 88);
         border-radius: 5px;
         padding: 22px;
-        
-        
         justify-content: center;
-        
-        
     }
     .see{
         text-decoration-line: none;
         
         color: rgb(221, 29, 103);
         font-size: 16px;
-        padding-left:93%;
+        padding-left:90%;
     }
     .footer-parent{
         background-color: rgb(15, 15, 48);
@@ -182,6 +149,8 @@ body{
             display: block;
         }
     }
+    /*for tablets */
+
     @media only screen and (min-width:688px)and (max-width:992px){
         .items{
             grid-template-columns: repeat(2,1fr);
