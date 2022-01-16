@@ -1,0 +1,195 @@
+body{
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+    margin: 0px;
+    }
+    .with-padding{
+        padding:7.5%;
+    }
+    .menu{
+    display:flex;
+    }
+    .extra{
+        font-size: 1.1em;
+        display: flex;
+        padding-top: 20px;
+        
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        color:3A3A3A;
+        
+    }
+    .menu-width{
+        width: 65%;
+    }
+    /* .home{
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.925)
+    }
+    .products{
+        
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.925)
+    }
+    /* .signup{
+        padding-left:20px;
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.925)
+         */
+    /* }
+    .login{
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.925)
+    }  */
+
+    #influencer{
+        color:rgba(0, 0, 0, 0.397)
+        
+    }
+    .button{
+        color: white;
+        text-decoration: none;
+        background-color:rgb(221, 29, 103);
+        font-size:16px;
+        padding: 1.5%;
+        border-radius: 15px;
+    }
+    .transform-img{
+        display: flex;
+        
+    }
+    .first-width{
+        width: 50%;
+    }
+    .first-width img{
+        /* width:75%; */
+        /* padding-left: 20%;
+        padding-bottom: 80%; */
+        width: 440px;
+        height: 414px;
+         
+    }
+    #starter{
+        font-size: 52px;
+        font-weight: 800;
+        color: rgb(51, 47, 47);
+    }
+    #starter-child{
+        color:rgba(51, 47, 47, 0.829); ;
+        font-size: 16px;
+        font-weight: 800;
+        
+    }
+    #collection{
+        text-align: center;
+        color:rgba(51, 47, 47, 0.829); ;
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .items{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        background-color: rgba(170, 169, 169, 0.089);
+        grid-gap: 40px;
+        
+        
+        
+    }
+    .info{
+        display: flex;
+        
+    }
+    #rating{
+        padding-left: 2%;
+    }
+    .star{
+        color: rgb(255, 115, 0);
+        
+    }
+    .blogs{
+        background-color: white;
+        border: rgba(175, 171, 171, 0.541) 1px solid;
+        box-shadow: rgb(88, 86, 88);
+        border-radius: 5px;
+        padding: 22px;
+        
+        
+        justify-content: center;
+        
+        
+    }
+    .see{
+        text-decoration-line: none;
+        
+        color: rgb(221, 29, 103);
+        font-size: 16px;
+        padding-left:93%;
+    }
+    .footer-parent{
+        background-color: rgb(15, 15, 48);
+        padding: 2%;
+    }
+    .footer{
+        text-align: center;
+        color: white;
+        font-weight: 100px;
+    }
+    .fa-instagram{
+        padding-right: 5px;
+       
+        
+
+    
+        
+    }
+    .fa-twitter{
+        padding-right: 5px;
+        
+        
+    
+    }
+    .fa-facebook{
+        padding-left:5px;
+    }
+    .fa-youtube{
+        padding-left;:5px;
+    }
+    #camera:hover{
+        transform:scale(1.4); 
+        transition: transform 1.5s ease-in-out;
+    }  
+    .bonus-module{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    } 
+   
+    
+
+    /* for mobile devices */
+    @media only screen and (max-width:688px){
+        .items{
+            grid-template-columns: repeat(1,1fr);
+            
+        
+        }
+        .bonus-module{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .transform-img{
+            display: block;
+        }
+    }
+    @media only screen and (min-width:688px)and (max-width:992px){
+        .items{
+            grid-template-columns: repeat(2,1fr);
+            
+        
+        }
+        .bonus-module{
+            grid-template-columns: repeat(2,1fr);
+        }
+       
+    }
